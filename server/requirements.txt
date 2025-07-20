@@ -1,0 +1,7 @@
+flask
+Flask_Cors
+openai
+requests
+python-dotenv
+psycopg2
+jsonschema

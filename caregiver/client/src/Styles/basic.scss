@@ -1,0 +1,38 @@
+.form-control{
+    width: 100%;
+}
+.dualBtn{
+    width: 50%;
+}
+h1{
+    display: flex;
+    justify-content: center;
+}
+p{
+    display: flex;
+    justify-content: center;
+}
+form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hstack.address{
+    justify-content: space-between;;
+}
+.basic{
+    margin: 15px 20%;
+    .mb-3{
+        .form-label{
+        display: flex;
+        justify-content: flex-start;
+        }
+    }
+}
+@media only screen and (max-width: 450px) {
+    .basic{
+        h1{
+            font-size: 1.45rem;
+        }
+    }
+  }
