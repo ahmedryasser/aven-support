@@ -14,10 +14,12 @@ import PlayCircleIcon from "@mui/icons-material/PlayCircle";
 import axios from "axios";
 
 
+import Avatar from './Avatar';
 function Speech() {
     const [recording, setRecording] = useState(false);
     const [response, setResponse] = useState(''); 
     const silenceTimer = useRef(null);
+    const [speaking, setSpeaking] = useState(false);
     const silenceTimeoutMs = 2000; 
     const {
         transcript,
@@ -75,6 +77,10 @@ function Speech() {
         }
         speechSynthesis.cancel();
         const utterance = new SpeechSynthesisUtterance(response);
+        utterance.onstart = () => setSpeaking(true);
+        const endHandler = () => setSpeaking(false);
+        utterance.onend = endHandler;
+        utterance.onerror = endHandler;
         speechSynthesis.speak(utterance);
     }
     const handleMessageSend = () => {
@@ -111,6 +117,7 @@ function Speech() {
                 </IconButton>
             )}
             <br />
+            <Avatar speaking={speaking} />
 
             <Box bottom={"0"} justifyContent={"center"} width={"70%"} height={"45px"} overflow={"hidden"} borderRadius={"10px"} position={"absolute"} marginBottom={"30px"} sx={{backgroundColor:"white"}}>
                 {recording && (<Typography variant='h5'> {transcript}</Typography>)} {!recording && (<Typography variant='h4'> {response}</Typography>)}
@@ -121,5 +128,4 @@ function Speech() {
     );
   }
   
-  export default Speech;
-  
+export default Speech;
