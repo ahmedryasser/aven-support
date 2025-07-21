@@ -10,6 +10,7 @@ Anaphora is a web-based simulation of a wearable watch designed to help dementia
 - Answers patient questions using the OpenAI ChatGPT API.
 - Detects repetitive behavior and notifies caregivers.
 - Pulls relevant information from a patient's database (name, address, etc.).
+- Animated Lottie avatar mouths ChatGPT responses via text to speech.
 
   
 <img width="958" alt="Watch screenshot" src="https://github.com/ahmedryasser/Anaphora/assets/56661044/be1a7f11-5203-422e-b175-8eb316823c9b">
