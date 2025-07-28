@@ -1,0 +1,1008 @@
+{
+  "summary": {
+    "total_tests": 50,
+    "average_scores": {
+      "accuracy": 3.34,
+      "helpfulness": 4.46,
+      "citation_quality": 3.98,
+      "overall": 3.92
+    },
+    "score_distribution": {
+      "excellent": 25,
+      "good": 21,
+      "fair": 4,
+      "poor": 0
+    },
+    "category_performance": {
+      "account_management": 4.22,
+      "payments": 3.68,
+      "credit_info": 3.32,
+      "security": 3.85,
+      "general": 4.54
+    },
+    "response_time_stats": {
+      "average": 4.23,
+      "median": 3.81,
+      "max": 7.65
+    },
+    "success_rate": 1.0
+  },
+  "detailed_results": [
+    {
+      "test_id": 1,
+      "category": "account_management",
+      "question": "How do I reset my password?",
+      "response": "To reset your password with Aven, you can usually do so by visiting the login page on the Aven website and looking for a \"Forgot Password\" or \"Reset Password\" link. By clicking on that link, you will likely be prompted to enter your email address associated with your Aven account. After providing your email, you should receive instructions on how to reset your password.\n\nIf you encounter any issues or if the process has changed, I recommend reaching out to Aven directly through their customer support channels for specific guidance on resetting your password. They will be able to provide you with detailed and accurate steps to help you regain access to your account.",
+      "response_time": 7.652649,
+      "expected_info": [
+        "password reset",
+        "forgot password",
+        "account recovery",
+        "customer service"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.2
+      },
+      "timestamp": "2025-07-28T15:34:37.278396"
+    },
+    {
+      "test_id": 2,
+      "category": "account_management",
+      "question": "I can't log into my Aven account",
+      "response": "I'm sorry to hear that you're having trouble logging into your Aven account. For assistance with account access issues, I recommend reaching out directly to Aven's customer support team. They will be able to assist you in resolving the login problem and ensure you can access your account successfully. You can contact Aven's customer support through their website or by phone. If you need any further help or have any other questions, feel free to ask!",
+      "response_time": 3.783736,
+      "expected_info": [
+        "login help",
+        "account access",
+        "troubleshooting",
+        "support"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.6
+      },
+      "timestamp": "2025-07-28T15:34:42.065417"
+    },
+    {
+      "test_id": 3,
+      "category": "account_management",
+      "question": "How do I update my personal information?",
+      "response": "To update your personal information with Aven, you can typically log into your account on our website or app and navigate to the profile or account settings section. From there, you should be able to update details such as your contact information, address, and other relevant personal information. \n\nIf you encounter any difficulties or if specific instructions are not readily available, I recommend reaching out to Aven directly for precise guidance on how to update your personal information. Our customer service team will be able to assist you further and provide you with the necessary steps to ensure your information is up to date.",
+      "response_time": 3.695618,
+      "expected_info": [
+        "update profile",
+        "personal information",
+        "account settings"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.6
+      },
+      "timestamp": "2025-07-28T15:34:46.763509"
+    },
+    {
+      "test_id": 4,
+      "category": "account_management",
+      "question": "Where can I view my account statements?",
+      "response": "To view your account statements as an Aven cardholder, you can access them through the Aven Card app. Simply log in to the app and navigate to the statements section to view your account statements. You can also access your statements online at [https://my.aven.com/statements](https://my.aven.com/statements).\n\nIf you encounter any issues or need further assistance accessing your account statements, feel free to reach out to Aven customer support for more specific guidance.",
+      "response_time": 3.739199,
+      "expected_info": [
+        "statements",
+        "account history",
+        "transactions",
+        "online account"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 4,
+        "citation_quality": 5,
+        "overall": 3.8
+      },
+      "timestamp": "2025-07-28T15:34:51.505099"
+    },
+    {
+      "test_id": 5,
+      "category": "account_management",
+      "question": "How do I change my mailing address?",
+      "response": "To change your mailing address with Aven, you can update your information through your Aven account settings. Log in to your Aven account either on the website or through the Aven app, navigate to your account settings, and look for the option to update your mailing address. If you encounter any difficulties or if this information is not available in your account settings, please reach out to Aven's customer support team for specific instructions on how to update your mailing address. You can email them at [support@aven.com](mailto:support@aven.com) or contact them through live chat on the Aven app.",
+      "response_time": 4.346364,
+      "expected_info": [
+        "address change",
+        "contact information",
+        "account update"
+      ],
+      "scores": {
+        "accuracy": 1,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 3.4
+      },
+      "timestamp": "2025-07-28T15:34:56.854685"
+    },
+    {
+      "test_id": 6,
+      "category": "account_management",
+      "question": "Can I add an authorized user to my account?",
+      "response": "Yes, you can add an authorized user to your Aven account. Adding an authorized user allows another person to make purchases using your account. For specific details on how to add an authorized user, any associated fees, or requirements, it's best to contact Aven directly. They will be able to provide you with precise information and guide you through the process of adding an authorized user to your account.",
+      "response_time": 3.356277,
+      "expected_info": [
+        "authorized user",
+        "additional cardholder",
+        "account permissions"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 4,
+        "citation_quality": 3,
+        "overall": 3.4
+      },
+      "timestamp": "2025-07-28T15:35:01.214068"
+    },
+    {
+      "test_id": 7,
+      "category": "account_management",
+      "question": "How do I close my Aven account?",
+      "response": "To close your Aven account, you will need to contact Aven directly. Aven's website does not provide specific information on the steps or process for closing an account. You can reach out to Aven's customer service team through their website or customer support contact information for assistance with closing your account. They will be able to guide you through the necessary steps and provide any additional information you may need.",
+      "response_time": 4.336441,
+      "expected_info": [
+        "close account",
+        "account closure",
+        "customer service",
+        "contact"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.6
+      },
+      "timestamp": "2025-07-28T15:35:06.552907"
+    },
+    {
+      "test_id": 8,
+      "category": "account_management",
+      "question": "I need to update my phone number",
+      "response": "To update your phone number with Aven, you can typically do so through the Aven Card app or by logging into your account online at [https://my.aven.com/card](https://my.aven.com/card). These platforms usually allow you to manage your account details, including updating your contact information.\n\nIf you encounter any difficulties or need further assistance with updating your phone number, I recommend reaching out directly to Aven's customer support team. They will be able to provide you with specific guidance on how to update your phone number successfully.",
+      "response_time": 4.813206,
+      "expected_info": [
+        "phone number",
+        "contact information",
+        "account update"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.6
+      },
+      "timestamp": "2025-07-28T15:35:12.369015"
+    },
+    {
+      "test_id": 9,
+      "category": "account_management",
+      "question": "How do I set up text alerts?",
+      "response": "To set up text alerts with Aven, you can log in to your account on the Aven website or mobile app. Once logged in, navigate to the settings or notifications section where you should find an option to manage your alert preferences. From there, you can select the type of alerts you want to receive via text message, such as account activity notifications, payment reminders, or balance updates.\n\nIf you encounter any difficulties or need more specific instructions on setting up text alerts, I recommend reaching out to Aven's customer support directly. They will be able to provide you with detailed guidance on how to configure text alerts based on your preferences and account settings.",
+      "response_time": 5.24547,
+      "expected_info": [
+        "text alerts",
+        "notifications",
+        "account settings",
+        "mobile alerts"
+      ],
+      "scores": {
+        "accuracy": 5,
+        "helpfulness": 4,
+        "citation_quality": 4,
+        "overall": 4.4
+      },
+      "timestamp": "2025-07-28T15:35:18.617193"
+    },
+    {
+      "test_id": 10,
+      "category": "account_management",
+      "question": "Where do I find my account number?",
+      "response": "To find your account number with Aven, you can typically locate it within your account information or on your Aven Card itself. If you are unable to locate your account number through these methods, I recommend reaching out to Aven directly for specific guidance on where to find your account number. You can contact Aven's customer support team for further assistance with locating your account number.",
+      "response_time": 3.917667,
+      "expected_info": [
+        "account number",
+        "card number",
+        "account information"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.6
+      },
+      "timestamp": "2025-07-28T15:35:23.536973"
+    },
+    {
+      "test_id": 11,
+      "category": "payments",
+      "question": "When is my payment due?",
+      "response": "Your monthly payment due date is typically close to the monthly anniversary of when your statement is generated. For specific details about your payment due date or to confirm the exact date for your account, we recommend checking your statement or contacting Aven directly for personalized assistance.",
+      "response_time": 3.598982,
+      "expected_info": [
+        "payment due date",
+        "billing cycle",
+        "monthly payment"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 5,
+        "citation_quality": 4,
+        "overall": 4.4
+      },
+      "timestamp": "2025-07-28T15:35:28.138191"
+    },
+    {
+      "test_id": 12,
+      "category": "payments",
+      "question": "What's my current balance?",
+      "response": "Based on the information available on Aven's website, the Form 1098 provided by Aven contains the total principal you had on Jan 01, 2024, and any additional draws or purchases you made throughout the year, up to Dec 31, 2024. However, this amount is not the current principal on your account, and it is for IRS reporting purposes. Your total amount owed may be different.\n\nTo determine your current balance, including any pending transactions or recent activity, it is best to log in to your Aven account online or through the mobile app. The most accurate and up-to-date information about your account balance will be available there. If you have any specific questions or need further assistance regarding your current balance, I recommend reaching out to Aven directly for personalized support.\n\nIs there anything else you would like to know or any other way I can assist you today?",
+      "response_time": 4.699281,
+      "expected_info": [
+        "current balance",
+        "account balance",
+        "outstanding balance"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 4,
+        "citation_quality": 5,
+        "overall": 4.2
+      },
+      "timestamp": "2025-07-28T15:35:33.840169"
+    },
+    {
+      "test_id": 13,
+      "category": "payments",
+      "question": "How do I make a payment?",
+      "response": "To make a payment on your Aven card, you can typically do so through various methods such as online banking, mobile app, or by mail. Specific information on payment methods, due dates, and online account access can be found in your account agreement or by logging into your Aven account online.\n\nFor detailed instructions on how to make a payment, including available payment methods and due dates, I recommend checking your account agreement or contacting Aven directly for specific guidance tailored to your account. They can provide you with accurate and personalized information regarding the payment process.",
+      "response_time": 5.79428,
+      "expected_info": [
+        "make payment",
+        "payment methods",
+        "online payment",
+        "phone payment"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.2
+      },
+      "timestamp": "2025-07-28T15:35:40.636580"
+    },
+    {
+      "test_id": 14,
+      "category": "payments",
+      "question": "Can I set up autopay?",
+      "response": "Yes, you can set up autopay for your Aven account. Cardholders can add or remove bank accounts for autopay using the Aven Card app or online at [https://my.aven.com/card](https://my.aven.com/card). This feature allows you to conveniently schedule automatic payments to ensure your bills are paid on time each month. If you need more specific details on setting up autopay, I recommend contacting Aven directly for precise instructions tailored to your account.",
+      "response_time": 3.706015,
+      "expected_info": [
+        "autopay",
+        "automatic payments",
+        "recurring payments"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 4,
+        "citation_quality": 5,
+        "overall": 4.2
+      },
+      "timestamp": "2025-07-28T15:35:45.344579"
+    },
+    {
+      "test_id": 15,
+      "category": "payments",
+      "question": "What's the minimum payment amount?",
+      "response": "Based on the information provided on our website, the minimum payment amount for an Aven Card account is calculated differently depending on whether it is on a revolving balance plan or a fixed monthly payment plan.\n\nFor revolving balance plans, the minimum monthly payment is 1% of the principal plus the monthly interest rate on the outstanding balance. For fixed monthly payment plans, the monthly payment amount remains the same every month.\n\nIf an account has multiple plans, each plan's minimum payment is added to calculate the total minimum payment due for the entire account. Additionally, any balances in a fixed monthly payment plan either have interest accrued daily at the daily interest rate of the plan or have a fixed monthly fee in place of interest.\n\nTo get an accurate estimate of your specific minimum payment amount, I recommend using our payment calculator tool at [https://aven.com/paymentCalculator](https://aven.com/paymentCalculator). If you have further questions or need more specific details about your account's minimum payment, feel free to reach out to Aven directly for personalized assistance.",
+      "response_time": 5.23192,
+      "expected_info": [
+        "minimum payment",
+        "minimum due",
+        "payment amount"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 4,
+        "citation_quality": 5,
+        "overall": 4.2
+      },
+      "timestamp": "2025-07-28T15:35:51.579035"
+    },
+    {
+      "test_id": 16,
+      "category": "payments",
+      "question": "I made a payment but it's not showing up",
+      "response": "I'm sorry to hear that your payment isn't showing up in your account. While I don't have specific information on individual transactions, payments typically take a few business days to reflect in your account. \n\nIf you made a payment recently, I recommend waiting a bit longer for the payment to be processed and reflected in your account balance. If the payment still hasn't shown up after a reasonable amount of time, you may want to reach out to Aven directly for assistance. You can contact our customer support team for more detailed information on your specific payment and account status.",
+      "response_time": 3.745113,
+      "expected_info": [
+        "payment processing",
+        "payment delay",
+        "customer service"
+      ],
+      "scores": {
+        "accuracy": 1,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 3.4
+      },
+      "timestamp": "2025-07-28T15:35:56.326701"
+    },
+    {
+      "test_id": 17,
+      "category": "payments",
+      "question": "Can I pay more than the minimum?",
+      "response": "Yes, you can pay more than the minimum amount due on your Aven card. Paying more than the minimum can help you pay off your balance faster and reduce the amount of interest you'll pay over time. It's a good financial practice to pay more than the minimum whenever possible.\n\nFor specific details on how to make additional payments or how they are applied to your account, you can log in to your Aven account online or contact Aven customer service for more information. They will be able to provide you with personalized assistance based on your account details.",
+      "response_time": 4.193865,
+      "expected_info": [
+        "payment amount",
+        "extra payment",
+        "principal payment"
+      ],
+      "scores": {
+        "accuracy": 1,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 3.4
+      },
+      "timestamp": "2025-07-28T15:36:01.523539"
+    },
+    {
+      "test_id": 18,
+      "category": "payments",
+      "question": "What payment methods do you accept?",
+      "response": "Aven accepts various payment methods for managing your account, including electronic payments through the platform. Additionally, Aven cardholders can transfer cash directly from their Aven account to another bank account using CashOut. Please note that there may be a one-time fee associated with such transfers, as indicated in your account agreement. For specific details on payment methods accepted by Aven, I recommend referring to your account agreement or contacting Aven directly for further assistance.",
+      "response_time": 4.015818,
+      "expected_info": [
+        "payment methods",
+        "bank transfer",
+        "debit card",
+        "check"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 4,
+        "citation_quality": 3,
+        "overall": 3.4
+      },
+      "timestamp": "2025-07-28T15:36:06.542973"
+    },
+    {
+      "test_id": 19,
+      "category": "payments",
+      "question": "Is there a fee for making payments?",
+      "response": "Yes, there are fees associated with making payments with an Aven card. Aven does not charge annual, sign-up, or pre-payment fees. However, there is a 2.5% fee for Cash Outs and Balance Transfers. Additionally, there is a $29 late fee if the minimum payment is not made. For specific details or any further questions regarding payments and associated fees, it is advisable to refer to your account agreement or contact Aven directly for more precise information.",
+      "response_time": 3.806977,
+      "expected_info": [
+        "payment fees",
+        "transaction fees",
+        "free payments"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 4,
+        "citation_quality": 3,
+        "overall": 3.4
+      },
+      "timestamp": "2025-07-28T15:36:11.352675"
+    },
+    {
+      "test_id": 20,
+      "category": "payments",
+      "question": "Can I schedule future payments?",
+      "response": "Yes, you can schedule future payments with Aven. Aven offers the option to set up automatic payments for your account, allowing you to schedule payments in advance. This feature can help you ensure timely payments and manage your finances effectively. For specific details on how to set up future payments and any additional options available, I recommend contacting Aven directly or referring to your account agreement for precise instructions.",
+      "response_time": 3.809567,
+      "expected_info": [
+        "scheduled payments",
+        "future payments",
+        "payment scheduling"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 4,
+        "citation_quality": 3,
+        "overall": 3.4
+      },
+      "timestamp": "2025-07-28T15:36:16.164060"
+    },
+    {
+      "test_id": 21,
+      "category": "payments",
+      "question": "What happens if I miss a payment?",
+      "response": "If you miss a payment, there may be consequences such as late fees, a negative impact on your credit score, and potential interest rate increases. It's crucial to contact Aven as soon as possible if you anticipate missing a payment to discuss possible options and avoid further financial implications. For specific details on the consequences of missing a payment with Aven, including any potential grace periods or specific policies in place, it would be best to reach out to Aven directly for accurate information tailored to your account.",
+      "response_time": 4.550467,
+      "expected_info": [
+        "late payment",
+        "missed payment",
+        "late fees",
+        "consequences"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 3,
+        "citation_quality": 3,
+        "overall": 3.4
+      },
+      "timestamp": "2025-07-28T15:36:21.715963"
+    },
+    {
+      "test_id": 22,
+      "category": "payments",
+      "question": "How long does a payment take to process?",
+      "response": "Payments typically take a few business days to process once submitted. The exact processing time may vary depending on the payment method used and any specific circumstances. If you have made a payment and are concerned about the processing time, we recommend reaching out to Aven directly for more precise details on your specific payment situation.",
+      "response_time": 3.276325,
+      "expected_info": [
+        "payment processing time",
+        "processing delay",
+        "payment timing"
+      ],
+      "scores": {
+        "accuracy": 1,
+        "helpfulness": 4,
+        "citation_quality": 3,
+        "overall": 2.6
+      },
+      "timestamp": "2025-07-28T15:36:25.994649"
+    },
+    {
+      "test_id": 23,
+      "category": "credit_info",
+      "question": "What's my credit limit?",
+      "response": "To determine your credit limit with Aven, the bank-standard underwriting system evaluates various factors such as income, equity, credit history, and debt obligations. Currently, the maximum line size offered by Aven is $250k. If you would like to know your specific credit limit, I recommend referring to your Account Agreement or reaching out to Aven directly for personalized information based on your account details.",
+      "response_time": 5.964215,
+      "expected_info": [
+        "credit limit",
+        "available credit",
+        "spending limit"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 3,
+        "citation_quality": 1,
+        "overall": 2.6
+      },
+      "timestamp": "2025-07-28T15:36:32.962406"
+    },
+    {
+      "test_id": 24,
+      "category": "credit_info",
+      "question": "How do I request a credit limit increase?",
+      "response": "To request a credit limit increase with Aven, the company regularly evaluates cardholders' eligibility for increases. If you qualify for a credit limit increase, you will receive an invitation from Aven, rather than being able to request one directly at this time. Aven's process for determining credit limit increases is based on various factors including income, equity, credit history, and debt obligations. For specific details on how Aven determines eligibility for credit limit increases or if you have any further questions, I recommend reaching out to Aven directly for more precise information.",
+      "response_time": 4.215867,
+      "expected_info": [
+        "credit limit increase",
+        "credit line increase",
+        "request process"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 4,
+        "citation_quality": 1,
+        "overall": 3.0
+      },
+      "timestamp": "2025-07-28T15:36:38.180774"
+    },
+    {
+      "test_id": 25,
+      "category": "credit_info",
+      "question": "What interest rate am I paying?",
+      "response": "Based on the information available on our website, the interest rate on your account is calculated as the sum of the index and the margin. Both the index and margin details can be found in your Account Agreement. \n\nFor specific details on the interest rate you are currently paying, I recommend referring to your Account Agreement or contacting Aven directly for precise information regarding your individual account. Our customer service team will be happy to assist you in providing the specific interest rate applicable to your account.",
+      "response_time": 3.500609,
+      "expected_info": [
+        "interest rate",
+        "APR",
+        "annual percentage rate"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 4,
+        "citation_quality": 5,
+        "overall": 3.8
+      },
+      "timestamp": "2025-07-28T15:36:42.684271"
+    },
+    {
+      "test_id": 26,
+      "category": "credit_info",
+      "question": "How does Aven report to credit bureaus?",
+      "response": "Aven reports customers' credit activity to major credit bureaus, which can help improve their credit score when payments are made on time and account balances are kept low. Timely reporting to credit bureaus is an essential part of establishing and maintaining good credit history. For specific details on how Aven reports to credit bureaus, I recommend reaching out to Aven directly as they can provide more precise information on the reporting process.",
+      "response_time": 3.504578,
+      "expected_info": [
+        "credit reporting",
+        "credit bureaus",
+        "credit history"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 5,
+        "citation_quality": 1,
+        "overall": 3.8
+      },
+      "timestamp": "2025-07-28T15:36:47.191516"
+    },
+    {
+      "test_id": 27,
+      "category": "credit_info",
+      "question": "Will this help build my credit score?",
+      "response": "When you use the Aven Card responsibly, such as making timely payments and managing your credit well, it can positively impact your credit score over time. However, the exact impact on your credit score can vary depending on individual credit history and behavior. To get specific details on how the Aven Card can help build your credit score, it's best to contact Aven directly for more precise information.",
+      "response_time": 4.832579,
+      "expected_info": [
+        "credit building",
+        "credit score",
+        "credit history"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 4,
+        "citation_quality": 3,
+        "overall": 3.8
+      },
+      "timestamp": "2025-07-28T15:36:53.026760"
+    },
+    {
+      "test_id": 28,
+      "category": "credit_info",
+      "question": "What's my available credit?",
+      "response": "Based on the information available on our website, we don't have specific details on how to check your available credit directly. To determine your available credit, I recommend logging into your Aven account online or contacting our customer support team directly. They will be able to provide you with the most up-to-date and accurate information regarding your available credit limit. Feel free to reach out to us for any further assistance or clarification you may need.",
+      "response_time": 3.341404,
+      "expected_info": [
+        "available credit",
+        "remaining credit",
+        "credit utilization"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.2
+      },
+      "timestamp": "2025-07-28T15:36:57.369628"
+    },
+    {
+      "test_id": 29,
+      "category": "credit_info",
+      "question": "Do you offer credit monitoring?",
+      "response": "At this time, Aven does not offer credit monitoring services as part of its financial products and services. However, we recommend regularly monitoring your credit score through other reputable credit monitoring services to stay informed about your financial health. If you have any further questions or need assistance with managing your credit, feel free to reach out to us for additional guidance or resources.",
+      "response_time": 3.309539,
+      "expected_info": [
+        "credit monitoring",
+        "credit tracking",
+        "credit alerts"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 4,
+        "citation_quality": 1,
+        "overall": 3.0
+      },
+      "timestamp": "2025-07-28T15:37:01.681903"
+    },
+    {
+      "test_id": 30,
+      "category": "credit_info",
+      "question": "How often do you update credit bureaus?",
+      "response": "At Aven, we regularly report account activity to credit bureaus to help our customers build and maintain their credit profiles. However, the frequency of these updates can vary. For specific details on how often credit bureaus are updated with your account information, I recommend reaching out to our customer support team directly. They will be able to provide you with more precise information tailored to your account. If you have any other questions or need further assistance, feel free to let me know!",
+      "response_time": 3.349278,
+      "expected_info": [
+        "credit reporting",
+        "bureau updates",
+        "reporting frequency"
+      ],
+      "scores": {
+        "accuracy": 1,
+        "helpfulness": 5,
+        "citation_quality": 3,
+        "overall": 3.0
+      },
+      "timestamp": "2025-07-28T15:37:06.033381"
+    },
+    {
+      "test_id": 31,
+      "category": "credit_info",
+      "question": "What factors affect my credit with Aven?",
+      "response": "Factors that may affect your credit with Aven include your income, equity, credit history, and debt obligations. Aven's bank-standard underwriting system uses these factors to determine credit line sizes and interest rates for applicants. While specific credit score requirements are not mentioned, these key factors play a significant role in Aven's decision-making process. For further details on how these factors impact your credit with Aven, I recommend reaching out to Aven directly for more specific information tailored to your individual circumstances.",
+      "response_time": 3.810023,
+      "expected_info": [
+        "credit factors",
+        "payment history",
+        "credit utilization"
+      ],
+      "scores": {
+        "accuracy": 1,
+        "helpfulness": 4,
+        "citation_quality": 1,
+        "overall": 2.2
+      },
+      "timestamp": "2025-07-28T15:37:10.845974"
+    },
+    {
+      "test_id": 32,
+      "category": "credit_info",
+      "question": "Can I see my credit utilization ratio?",
+      "response": "Yes, you can typically view your credit utilization ratio through your account with Aven. Credit utilization ratio is the amount of credit you are using compared to your total available credit. This information is important for managing your credit health. For specific details on how to access and view your credit utilization ratio within your Aven account, I recommend logging in to your account or reaching out to Aven directly for more precise instructions.",
+      "response_time": 3.915697,
+      "expected_info": [
+        "credit utilization",
+        "utilization ratio",
+        "credit usage"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 4,
+        "citation_quality": 3,
+        "overall": 3.8
+      },
+      "timestamp": "2025-07-28T15:37:15.764543"
+    },
+    {
+      "test_id": 33,
+      "category": "security",
+      "question": "I think there's fraud on my account",
+      "response": "I'm sorry to hear that you suspect fraud on your account. If you believe there is fraudulent activity on your Aven account, it's crucial to take immediate action to protect your finances and personal information. \n\nHere are steps you can take:\n1. **Contact Aven**: Reach out to Aven's customer support team as soon as possible to report the suspected fraud. You can find the contact information on our website or app. Aven takes security and fraud concerns seriously and will assist you in investigating and resolving the issue.\n\n2. **Review Account Activity**: Take a close look at your account transactions to identify any unauthorized or suspicious charges. Note down any unfamiliar activities or purchases to share with the customer support team.\n\n3. **Change Your Password**: If you suspect fraud, change your account password immediately to prevent further unauthorized access.\n\n4. **Monitor Your Account**: Keep a close eye on your account for any new suspicious activities. Aven may also provide tools for monitoring and alerting you of unusual account behavior.\n\n5. **Consider Security Measures**: Depending on the nature of the suspected fraud, Aven may recommend additional security measures to protect your account and personal information.\n\nRemember, it's essential to act swiftly and communicate with Aven to address any potential fraud on your account effectively. If you need further guidance or specific assistance related to your account, please contact Aven directly for personalized support. Your security and peace of mind are our top priorities.",
+      "response_time": 5.755067,
+      "expected_info": [
+        "fraud",
+        "unauthorized charges",
+        "dispute",
+        "security",
+        "contact immediately"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.6
+      },
+      "timestamp": "2025-07-28T15:37:22.521897"
+    },
+    {
+      "test_id": 34,
+      "category": "security",
+      "question": "How do I report a lost or stolen card?",
+      "response": "To report a lost or stolen Aven Card, please contact our customer service team immediately at the provided phone number or email address on our website. They will be able to assist you in deactivating your lost or stolen card and issuing a replacement. It's important to act quickly to prevent any unauthorized transactions on your account. If you have any concerns or questions regarding your lost or stolen card, feel free to reach out to our customer service team for further assistance.",
+      "response_time": 3.706107,
+      "expected_info": [
+        "lost card",
+        "stolen card",
+        "card replacement",
+        "emergency contact"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 3,
+        "citation_quality": 5,
+        "overall": 3.4
+      },
+      "timestamp": "2025-07-28T15:37:27.230842"
+    },
+    {
+      "test_id": 35,
+      "category": "security",
+      "question": "What security features does Aven offer?",
+      "response": "Aven takes security very seriously and offers a range of features to ensure the safety and protection of your financial information. While specific security features are not detailed on the website, Aven employs industry-standard encryption protocols to safeguard your data during transmission and storage.\n\nAdditionally, Aven likely utilizes advanced security measures such as secure login processes, multi-factor authentication, and monitoring systems to detect and prevent fraud. They may also have dedicated teams and tools in place to continuously monitor for any suspicious activity and protect against unauthorized access.\n\nFor more specific information on the security features Aven offers, I recommend reaching out directly to their customer support team via the \"Contact Us\" link on their website. They will be able to provide you with detailed insights into the specific security measures and protocols they have in place to protect your information.",
+      "response_time": 5.253286,
+      "expected_info": [
+        "security features",
+        "fraud protection",
+        "monitoring",
+        "alerts"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.6
+      },
+      "timestamp": "2025-07-28T15:37:33.486879"
+    },
+    {
+      "test_id": 36,
+      "category": "security",
+      "question": "How do I dispute a charge?",
+      "response": "To dispute a charge on your Aven Card, you can contact Aven's customer support team directly. You can reach out to them via phone at [customer support number] or through email at [customer support email]. When disputing a charge, make sure to have the relevant transaction details, such as the date of the transaction, the amount, and any supporting documentation ready. The customer support team will guide you through the dispute process and help resolve the issue. If you need further assistance or specific details on the dispute process, feel free to contact Aven directly for more information.",
+      "response_time": 4.340601,
+      "expected_info": [
+        "dispute charge",
+        "chargeback",
+        "unauthorized transaction"
+      ],
+      "scores": {
+        "accuracy": 1,
+        "helpfulness": 5,
+        "citation_quality": 4,
+        "overall": 3.2
+      },
+      "timestamp": "2025-07-28T15:37:38.829804"
+    },
+    {
+      "test_id": 37,
+      "category": "security",
+      "question": "Can I freeze my account temporarily?",
+      "response": "Yes, you can freeze your account temporarily with Aven. Temporarily freezing your account can be a useful feature if you need to prevent any unauthorized transactions or activity on your account for a specific period.\n\nFor specific details on how to freeze your account, the process involved, and any potential impacts on your account during the freeze period, I recommend reaching out directly to Aven's customer support team. They will be able to provide you with the precise steps to freeze your account and address any questions or concerns you may have about the process.",
+      "response_time": 3.478578,
+      "expected_info": [
+        "account freeze",
+        "temporary hold",
+        "security measure"
+      ],
+      "scores": {
+        "accuracy": 1,
+        "helpfulness": 4,
+        "citation_quality": 3,
+        "overall": 2.6
+      },
+      "timestamp": "2025-07-28T15:37:43.310849"
+    },
+    {
+      "test_id": 38,
+      "category": "security",
+      "question": "How do I enable fraud alerts?",
+      "response": "To enable fraud alerts for your Aven account, you can typically do so by logging into your account on the Aven website or contacting Aven's customer support directly. Fraud alerts are an essential security feature that can help protect your account from unauthorized activity. If you are unable to locate the option to enable fraud alerts on your account dashboard, I recommend reaching out to Aven's customer support team for specific instructions on how to set up this feature. They will be able to provide you with detailed guidance tailored to your account and help ensure your account security.",
+      "response_time": 4.115618,
+      "expected_info": [
+        "fraud alerts",
+        "security alerts",
+        "notification settings"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.2
+      },
+      "timestamp": "2025-07-28T15:37:48.428339"
+    },
+    {
+      "test_id": 39,
+      "category": "security",
+      "question": "What should I do if I see suspicious activity?",
+      "response": "If you notice any suspicious activity on your Aven account, it is crucial to take immediate action to protect your account and personal information. Here are some steps you can take:\n\n1. **Contact Aven Customer Support:** Reach out to Aven's customer support team as soon as possible to report the suspicious activity. They will be able to investigate the issue and provide guidance on next steps.\n\n2. **Change Your Password:** If you suspect unauthorized access to your account, change your password immediately. Choose a strong, unique password to enhance security.\n\n3. **Monitor Your Account:** Regularly monitor your account activity for any unfamiliar transactions or changes. Report any discrepancies to Aven promptly.\n\n4. **Review Security Settings:** Check your account security settings to ensure they are up to date and set to the highest level of protection.\n\n5. **Consider Freezing Your Account:** If you believe your account has been compromised, you may consider freezing your account temporarily to prevent further unauthorized access.\n\nRemember, it is essential to act swiftly when you detect suspicious activity to safeguard your account and financial information. If you need specific assistance or further details related to your account security, don't hesitate to contact Aven directly for personalized support and guidance.",
+      "response_time": 5.143118,
+      "expected_info": [
+        "suspicious activity",
+        "report fraud",
+        "contact support",
+        "security"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 5,
+        "citation_quality": 4,
+        "overall": 4.4
+      },
+      "timestamp": "2025-07-28T15:37:54.575241"
+    },
+    {
+      "test_id": 40,
+      "category": "security",
+      "question": "How secure is my personal information?",
+      "response": "Aven takes the security and privacy of your personal information very seriously. We use industry-standard encryption and security measures to protect your data. Additionally, Aven follows strict protocols to ensure that your information is handled securely and in compliance with all applicable laws and regulations.\n\nWhile we can assure you that we prioritize the security of your personal information, specific details about our security measures beyond what is publicly available on our website are confidential for security reasons. If you have any specific concerns or questions regarding the security of your personal information, please feel free to reach out to Aven directly for more detailed information.",
+      "response_time": 3.607336,
+      "expected_info": [
+        "data security",
+        "privacy",
+        "encryption",
+        "protection"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 4,
+        "citation_quality": 3,
+        "overall": 3.8
+      },
+      "timestamp": "2025-07-28T15:37:59.185600"
+    },
+    {
+      "test_id": 41,
+      "category": "general",
+      "question": "What is Aven?",
+      "response": "Aven is a financial technology company that offers services such as credit cards, loans, and online financial solutions. Customers have reported having a great experience with Aven, highlighting the streamlined and efficient service provided by the company, including an easy online application and signing process. While specific details about Aven's offerings may not be provided in the information available, you can visit their website at [www.aven.com](https://www.aven.com/) for more detailed information on their products and services. If you have specific inquiries or need further details about what Aven offers, I recommend reaching out to Aven directly through their [Contact Us](https://www.aven.com/contact) page for personalized assistance.",
+      "response_time": 5.036305,
+      "expected_info": [
+        "aven",
+        "company",
+        "financial services",
+        "credit card"
+      ],
+      "scores": {
+        "accuracy": 5,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 5.0
+      },
+      "timestamp": "2025-07-28T15:38:05.224093"
+    },
+    {
+      "test_id": 42,
+      "category": "general",
+      "question": "How do I contact customer service?",
+      "response": "To contact Aven's customer service, you can typically find their contact information on their official website. Look for a \"Contact Us\" section, which may include a phone number, email address, or a form to submit your inquiry.\n\nIf you are unable to locate the contact information on the website, I recommend checking the FAQ section or reaching out to Aven through their social media channels for assistance. For specific details or inquiries about your account, it's best to contact Aven directly to get accurate and personalized assistance.",
+      "response_time": 3.81022,
+      "expected_info": [
+        "customer service",
+        "contact",
+        "phone",
+        "support",
+        "1-800"
+      ],
+      "scores": {
+        "accuracy": 5,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 5.0
+      },
+      "timestamp": "2025-07-28T15:38:10.037941"
+    },
+    {
+      "test_id": 43,
+      "category": "general",
+      "question": "What are your customer service hours?",
+      "response": "Thank you for your interest in Aven! While the exact customer service hours are not mentioned on our website, we strive to provide support to our customers as promptly as possible. For specific information on our customer service hours, I recommend reaching out to us directly through our contact channels. Our team will be more than happy to assist you with any inquiries you may have.",
+      "response_time": 3.811256,
+      "expected_info": [
+        "hours",
+        "customer service",
+        "support hours",
+        "availability"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.6
+      },
+      "timestamp": "2025-07-28T15:38:14.862054"
+    },
+    {
+      "test_id": 44,
+      "category": "general",
+      "question": "Do you have a mobile app?",
+      "response": "Yes, Aven cardholders can use the Aven Card app to easily manage their accounts, make payments, and access other features. You can download the Aven Card app from the App Store or Google Play Store. For more specific details about the app's functionality and features, I recommend visiting [https://my.aven.com/](https://my.aven.com/) or contacting Aven directly for assistance.",
+      "response_time": 3.511182,
+      "expected_info": [
+        "mobile app",
+        "smartphone",
+        "download",
+        "app store"
+      ],
+      "scores": {
+        "accuracy": 4,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 4.6
+      },
+      "timestamp": "2025-07-28T15:38:19.376223"
+    },
+    {
+      "test_id": 45,
+      "category": "general",
+      "question": "Where can I find more information about Aven?",
+      "response": "You can find more information about Aven by visiting their official website at [www.aven.com](https://www.aven.com/). On their website, you can explore details about their financial products, how they work, customer reviews, and support options. Additionally, you can learn about Aven's services, application process, and other relevant information by navigating through the various sections available on their website.\n\nFor specific details such as credit score requirements, terms and conditions, or any other personalized information, it would be best to contact Aven directly. You can reach out to Aven's customer support team through the \"Contact Us\" section on their website for any inquiries or assistance you may need.",
+      "response_time": 3.602177,
+      "expected_info": [
+        "aven.com",
+        "website",
+        "information",
+        "learn more"
+      ],
+      "scores": {
+        "accuracy": 5,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 5.0
+      },
+      "timestamp": "2025-07-28T15:38:23.982523"
+    },
+    {
+      "test_id": 46,
+      "category": "general",
+      "question": "What makes Aven different from other credit cards?",
+      "response": "Aven offers a unique credit card experience compared to traditional credit cards for several reasons:\n\n1. **Variable Rate**: The Aven Card operates on a variable rate, meaning the APR can fluctuate based on specific indices like the Prime Rate published in the Wall Street Journal or the Federal Funds Target Rate Upper Limit set by the Federal Reserve. This can result in potential changes in APR multiple times a year.\n\n2. **Cash Outs and Balance Transfers**: Aven cardholders have the ability to transfer cash directly from their Aven account to another bank account through CashOuts. Additionally, they can request balance transfers from high-interest credit cards to their Aven card, subject to any associated one-time fees.\n\n3. **Convenient Payment Options**: Aven provides various payment options for cardholders, such as using the Aven Card app to connect their bank account or utilizing existing online banking platforms to make payments to Aven.\n\n4. **Flexible Account Management**: Cardholders have the flexibility to add or remove bank accounts for auto pay or bill pay directly through the Aven Card app or online portal.\n\nWhile specific details about credit score requirements or rewards programs may not be available, Aven's emphasis on variable rates, cash transfer options, convenient payments, and account management sets it apart from other credit cards. For more detailed information or specific inquiries, I recommend reaching out to Aven directly through their [Contact Us](https://www.aven.com/contact) page.",
+      "response_time": 6.061724,
+      "expected_info": [
+        "aven features",
+        "benefits",
+        "unique",
+        "advantages"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 4,
+        "citation_quality": 5,
+        "overall": 3.8
+      },
+      "timestamp": "2025-07-28T15:38:31.047525"
+    },
+    {
+      "test_id": 47,
+      "category": "general",
+      "question": "How do I apply for an Aven card?",
+      "response": "To apply for an Aven card, you can visit the Aven website at [https://my.aven.com/](https://my.aven.com/) and look for the application process. Typically, you would need to provide personal information such as your name, address, social security number, and income details. \n\nIf you have specific questions about credit score requirements, application processing times, or any other details, I recommend reaching out to Aven directly through their customer support channels for more precise information. They can provide you with tailored guidance and assistance throughout the application process.",
+      "response_time": 4.696321,
+      "expected_info": [
+        "apply",
+        "application",
+        "eligibility",
+        "requirements"
+      ],
+      "scores": {
+        "accuracy": 5,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 5.0
+      },
+      "timestamp": "2025-07-28T15:38:36.746321"
+    },
+    {
+      "test_id": 48,
+      "category": "general",
+      "question": "What are the fees associated with Aven?",
+      "response": "The fees associated with Aven include a 2.5% fee on Cash Outs and Balance Transfers. Additionally, there is a $29 late fee if the minimum payment is not made. Aven aims to minimize fees, and there are no annual, sign-up, or pre-payment fees. For more detailed information or specific fee structures based on individual circumstances, I recommend referring to your account agreement or reaching out to Aven directly for personalized assistance.",
+      "response_time": 3.515586,
+      "expected_info": [
+        "fees",
+        "charges",
+        "costs",
+        "pricing"
+      ],
+      "scores": {
+        "accuracy": 3,
+        "helpfulness": 4,
+        "citation_quality": 1,
+        "overall": 3.0
+      },
+      "timestamp": "2025-07-28T15:38:41.264605"
+    },
+    {
+      "test_id": 49,
+      "category": "general",
+      "question": "Can I refer friends to Aven?",
+      "response": "Based on the information available from Aven's website, there is no explicit mention of a referral program for customers to refer friends to Aven. It's possible that Aven may offer a referral program that is not currently highlighted on the website.\n\nI recommend reaching out directly to Aven's customer service team for more information on whether they have a referral program in place and how it works. They will be able to provide you with specific details about any existing referral program and how you can refer friends to Aven if it is available.",
+      "response_time": 3.505647,
+      "expected_info": [
+        "referral",
+        "refer friends",
+        "bonus",
+        "program"
+      ],
+      "scores": {
+        "accuracy": 5,
+        "helpfulness": 4,
+        "citation_quality": 4,
+        "overall": 4.4
+      },
+      "timestamp": "2025-07-28T15:38:45.772747"
+    },
+    {
+      "test_id": 50,
+      "category": "general",
+      "question": "Do you offer any rewards or cashback?",
+      "response": "Based on the information available on Aven's website, there is no mention of rewards or cashback programs offered with the Aven card. It's important to note that the absence of this information does not necessarily mean that such programs do not exist, as details about rewards and cashback may vary and could be subject to change.\n\nFor specific and up-to-date information regarding any rewards or cashback programs that may be available with the Aven card, I recommend reaching out to Aven directly through their support channels or contacting their customer service team for the most accurate details. They will be able to provide you with the most current information on any rewards or cashback offers associated with the Aven card.",
+      "response_time": 3.604771,
+      "expected_info": [
+        "rewards",
+        "cashback",
+        "benefits",
+        "program"
+      ],
+      "scores": {
+        "accuracy": 5,
+        "helpfulness": 5,
+        "citation_quality": 5,
+        "overall": 5.0
+      },
+      "timestamp": "2025-07-28T15:38:50.383083"
+    }
+  ],
+  "evaluation_timestamp": "2025-07-28T15:38:51.404272"
+}
